@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sorteador</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="sorteador.js"></script>
+</head>
+
+<body>
+  <div id="page">
+
+
+    <form>
+      <label for="nomes">Lista de nomes:</label>
+      <textarea id="nomes" name="nomes" rows="10"></textarea>
+      <button type="button" onclick="adicionarNomes()">Adicionar</button>
+    </form>
+
+    <ul id="lista-nomes"></ul>
+    <button class="sortear" type="button" onclick="sortear()">Sortear</button>
+    <p id="resultado"></p>
+    <div id="sorteados"></div>
+
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>

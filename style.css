@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.show {
+  display: block !important;
+}
+
+#page {
+  display: flex;
+  width: 80%;
+  background-color: #c6c6c6;
+  margin: auto;
+  flex-direction: column;
+
+}
+
+form {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 32px;
+  text-align: center;
+
+}
+
+form #nomes {
+  margin-block: 20px;
+  height: 200px;
+  width: 100%;
+  max-width: 100%;
+  padding: 12px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+form button {
+  margin-bottom: 20px;
+  padding: 12px;
+  border: none !important;
+  outline: none;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 100%;
+}
+
+#page ul {
+  width: 100%;
+  max-width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  list-style-type: none;
+  color: #555;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+#page ul li {
+
+  text-decoration: none;
+}
+
+.sortear {
+  margin-bottom: 20px;
+  padding: 12px;
+  border: none !important;
+  outline: none;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 100%;
+
+}
